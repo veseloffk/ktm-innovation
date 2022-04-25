@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  padding: 50px 35px 0 0;
+
+  @media screen and (min-width: 480px) {
+    bottom: 73px;
+    left: 73.4px;
+    transition: bottom 0.2s ease-out;
+    padding: unset;
+  }
+}
+
+.activeContainer {
+  @media screen and (min-width: 480px) {
+    bottom: 90px;
+  }
+}
+
+.photo {
+  @media screen and (min-width: 480px) {
+    width: 398px;
+    height: 602px;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+
+  @media screen and (min-width: 480px) {
+    margin-top: 73px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  max-width: 398px;
+  margin-top: 20px;
+}

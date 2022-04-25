@@ -1,0 +1,17 @@
+.slide {
+  width: calc(100vw - 35px);
+  height: 100%;
+  position: relative;
+  user-select: none;
+  opacity: 0.5;
+
+  z-index: 3;
+
+  @media screen and (min-width: 480px) {
+    width: 773px;
+  }
+}
+
+.slideActive {
+  opacity: 1;
+}

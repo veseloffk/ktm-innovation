@@ -1,0 +1,35 @@
+.inner {
+  padding: 500px 35px 0 0;
+  height: 100%;
+  position: relative;
+
+  @media screen and (min-width: 480px) {
+    position: absolute;
+    bottom: 73px;
+    left: 73.4px;
+    transition: bottom 0.2s ease-out;
+    padding: unset;
+    height: unset;
+  }
+}
+
+.innerActive {
+  @media screen and (min-width: 480px) {
+    bottom: 198px;
+  }
+}
+
+.slideTitle {
+  font-size: 30px;
+}
+
+.description {
+}
+
+.learnMoreLink {
+  // fix it
+  @media screen and (min-width: 480px) {
+    position: absolute;
+    bottom: -78px;
+  }
+}

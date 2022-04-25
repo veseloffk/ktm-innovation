@@ -1,0 +1,19 @@
+.container {
+  display: none;
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
+}
+
+.menuItem {
+  font-size: 16px;
+
+  margin-right: 45px;
+}
+
+.burgerButton {
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
+}

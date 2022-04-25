@@ -1,0 +1,49 @@
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+}
+
+.leftBlock {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 25px;
+  padding-right: 35px;
+
+  justify-content: end;
+
+  @media screen and (min-width: 480px) {
+    justify-content: space-between;
+    padding-right: 0;
+  }
+}
+
+.logo {
+  margin-right: 48px;
+  width: 136.96px;
+  height: 84.36px;
+
+  @media screen and (min-width: 480px) {
+    width: 215.13px;
+    height: 132.51px;
+  }
+}
+
+.getInTouch {
+  display: none;
+  background-color: black;
+  color: #fff;
+  width: 139px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 139px;
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
+}

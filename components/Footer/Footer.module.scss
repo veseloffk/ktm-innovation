@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  padding: 48.5px 35px 16.5px;
+
+  @media screen and (min-width: 480px) {
+    padding: 142.5px 140px 35.5px;
+  }
+}
+
+.bottomLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  font-size: 12px;
+  color: #85868a;
+}
+
+.upBtn {
+  font-size: 16px;
+  color: #ff6600;
+
+  display: none;
+  position: absolute;
+
+  right: 84px;
+  top: 194px;
+  transform: rotate(90deg);
+
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
+}
+
+.companyName {
+  font-size: 18px;
+}
+
+.companyDescription {
+  margin-bottom: 15px;
+  margin-top: 14px;
+
+  font-size: 18px;
+  color: #85868a;
+
+  max-width: 277px;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 234px;
+    margin-top: 14px;
+  }
+}
+
+.policyLinks {
+  display: flex;
+  justify-content: space-between;
+
+  width: 123px;
+}
+
+.allRightReserved {
+  max-width: 132px;
+}
