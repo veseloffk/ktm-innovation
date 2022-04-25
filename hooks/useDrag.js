@@ -36,7 +36,7 @@ export const useDrag = ({
     (event) => {
       const { clientX } = event;
 
-      // TODO: if mouse moved outside container call onMouseUp
+      // TODO: Call onMouseUp if mouse moved outside container
 
       onMoveCallback(clientX);
     },
@@ -45,13 +45,12 @@ export const useDrag = ({
 
   const throttledOnMouseMove = useCallback(
     throttle(onMouseMove, throttleDelay),
-    [onMouseMove] // !!!
+    [onMouseMove]
   );
 
-  const throttledOnDrag = useCallback(
-    throttle(onDrag, throttleDelay),
-    [onDrag] // !!!
-  );
+  const throttledOnDrag = useCallback(throttle(onDrag, throttleDelay), [
+    onDrag,
+  ]);
 
   const onStartCallback = useCallback((clientX) => {
     position.current = clientX;
