@@ -33,6 +33,8 @@
 }
 
 .getInTouch {
+  cursor: pointer;
+
   display: none;
   background-color: black;
   color: #fff;
@@ -45,5 +47,10 @@
 
   @media screen and (min-width: 480px) {
     display: flex;
+  }
+
+  &:hover {
+    background-color: #ffffff;
+    color: black;
   }
 }

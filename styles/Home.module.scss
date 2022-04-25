@@ -188,9 +188,25 @@
 .link {
   font-size: 16px;
   color: #ff6600;
+  position: relative;
+  cursor: pointer;
 
   @media screen and (min-width: 480px) {
     color: #85868a;
+  }
+
+  &:hover {
+    color: #ff6600;
+
+    &::after {
+      left: 15px;
+    }
+  }
+
+  &::after {
+    content: "\2192";
+    position: relative;
+    left: 10px;
   }
 }
 

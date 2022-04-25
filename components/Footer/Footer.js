@@ -3,7 +3,7 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
   return (
     <footer className={styles.container}>
-      <button className={styles.upBtn}>&#8592; Back to the top</button>
+      <button className={styles.upBtn}> Back to the top</button>
 
       <div className={styles.companyName}>KTM Innovation GmbH</div>
       <div className={styles.companyDescription}>

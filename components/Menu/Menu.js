@@ -20,7 +20,7 @@ const Menu = () => {
           <a>Careers</a>
         </li>
         <li className={styles.menuItem}>
-          <a>Careers</a>
+          <a>News</a>
         </li>
       </ul>
     </>

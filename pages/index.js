@@ -85,7 +85,7 @@ export default function Home() {
                 consultant and developer with software expertise in these
                 fields.
               </div>
-              <a className={styles.link}>About us &#8594;</a>
+              <a className={styles.link}>About us</a>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function Home() {
                 <br />
                 but racing suits. No boredom, just short distances.
               </div>
-              <a className={styles.link}>Careers at KTM &#8594;</a>
+              <a className={styles.link}>Careers at KTM</a>
             </div>
           </div>
           <img src="/team-photo.png" className={styles.right} />
