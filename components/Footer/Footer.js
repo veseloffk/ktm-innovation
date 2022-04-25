@@ -1,9 +1,15 @@
+import { useCallback } from "react";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
+  const onBackToTheTopClick = useCallback(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <footer className={styles.container}>
-      <button className={styles.upBtn}> Back to the top</button>
+      <button className={styles.upBtn} onClick={onBackToTheTopClick}>
+        Back to the top
+      </button>
 
       <div className={styles.companyName}>KTM Innovation GmbH</div>
       <div className={styles.companyDescription}>
